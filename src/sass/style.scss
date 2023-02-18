@@ -1,0 +1,23 @@
+@import "base/variables";
+@import "../css/fonts.css";
+* {
+  font-family: "Museo Sans";
+}
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
+@import "blocks/promo";
+@import "blocks/header.scss";
+@import "blocks/buttons";
+@import "blocks/advantages";
+@import "blocks/title";
+@import "blocks/consultation";
+@import "blocks/forms";
+@import "blocks/carousel";
+@import "blocks/catalog";
+@import "blocks/feed";
+@import "blocks/footer";
+@import "blocks/modal";
+@import "blocks/pageup";
+@import "blocks/media.scss";

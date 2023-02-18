@@ -1,0 +1,364 @@
+@media (max-width: 1200px) {
+  .footer {
+    &__info {
+      padding: 59px 68px;
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .promo {
+    padding: 45px 46px 45px 45px;
+    min-height: 550px;
+    &__wrapper {
+      margin-top: 67px;
+    }
+    &__header {
+      font-size: 35px;
+    }
+    &__subheader {
+      font-size: 18px;
+    }
+    &__icons {
+      margin-top: 40px;
+    }
+  }
+  .button {
+    &_main {
+      margin-top: 40px;
+    }
+  }
+  .advantages {
+    padding: 45px 25px 45px 25px;
+    min-height: 465px;
+    .container {
+      max-width: 870px;
+    }
+    h2.title {
+      font-size: 27px;
+    }
+    &__wrapper {
+      margin-top: 47px;
+    }
+    &__descr {
+      font-size: 16px;
+    }
+  }
+  .feed-form {
+    margin: 0 auto;
+    margin-top: 36px;
+  }
+
+  .slick-dots {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: $main-color;
+    // width: 20px;
+    // height: 20px;
+    // border: none;
+    // border-radius: 100%;
+    list-style: none;
+    margin-top: 10px;
+    button {
+      // display: block;
+      padding: 0;
+      margin: 0 5px;
+      color: transparent;
+      width: 20px;
+      height: 20px;
+      border-radius: 100%;
+      border: none;
+    }
+  }
+  .slick-dots .slick-active {
+    button {
+      background-color: $main-color;
+    }
+  }
+  .footer {
+    &__info {
+      padding: 55px 68px;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .promo {
+    padding: 20px 0 20px 0;
+    min-height: 510px;
+    &__wrapper {
+      margin-top: 63px;
+    }
+    &__subheader {
+      margin-top: 6px;
+    }
+    &__icons {
+      width: 390px;
+      margin-top: 33px;
+    }
+    &__link {
+      font-size: 14px;
+    }
+  }
+  .header {
+    &__official {
+      font-size: 10px;
+      span {
+        font-size: 15px;
+      }
+    }
+  }
+  .button {
+    &_main {
+      margin-top: 29px;
+      width: 260px;
+    }
+  }
+  .advantages {
+    padding: 31px 5px 31px 5px;
+    min-height: 415px;
+    &__wrapper {
+      margin-top: 31px;
+      flex-direction: row;
+      align-items: center;
+    }
+    h2.title {
+      font-size: 24px;
+    }
+  }
+  .feed-form {
+    margin: 0 auto;
+    margin-top: 36px;
+  }
+  .carousel {
+    &__inner {
+      max-width: 560px;
+    }
+  }
+  .footer {
+    &__info {
+      padding: 40px 60px;
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .promo {
+    padding: 20px 0 10px 0;
+    min-height: 630px;
+    &__wrapper {
+      margin-top: 55px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      text-align: center;
+    }
+    &__header {
+      font-size: 28px;
+    }
+    &__subheader {
+      font-size: 15px;
+    }
+    &__icons {
+      width: 310px;
+    }
+    &__icon {
+      font-size: 13px;
+      img {
+        margin-bottom: 8px;
+      }
+    }
+    &__link {
+      margin-top: 11px;
+      font-size: 12px;
+    }
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    &__logo {
+      width: 250px;
+      margin-bottom: 10px;
+    }
+    &__official {
+      font-size: 11px;
+
+      span {
+        font-size: 15px;
+        margin-bottom: 20px;
+      }
+    }
+    &__phone {
+      font-size: 15px;
+    }
+  }
+  .button {
+    width: 150px;
+    &_main {
+      width: 255px;
+      font-size: 13px;
+      height: 35px;
+      margin-top: 19px;
+    }
+    &_submit {
+      width: 100%;
+    }
+  }
+  .advantages {
+    &__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+    }
+    &__item {
+      margin-top: 15px;
+    }
+  }
+  .consultation {
+    h2.title {
+      &_left {
+        font-size: 24px;
+      }
+    }
+  }
+  .carousel {
+    &__inner {
+      max-width: 100%;
+    }
+  }
+  .catalog {
+    &__content {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .slick-dots {
+    margin-top: 30px;
+  }
+  .catalog {
+    &__tab {
+      font-size: 12px;
+    }
+  }
+  .feed {
+    &__item {
+      flex-direction: column;
+      align-items: center;
+    }
+    img {
+      margin-bottom: 20px;
+    }
+    &__text {
+      margin: 0 20px;
+    }
+  }
+
+  .footer {
+    &__info {
+      width: 284px;
+      height: 240px;
+      padding: 25px 0;
+    }
+    &__addr {
+      font-size: 18px;
+    }
+    &__phone {
+      font-size: 18px;
+    }
+  }
+  .modal {
+    &__close {
+      top: -35px;
+      right: 25px;
+    }
+  }
+}
+
+@media (max-width: 320px) {
+  .promo {
+    min-height: 660px;
+    &__wrapper {
+      text-align: center;
+    }
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    &__logo {
+      width: 250px;
+      margin-right: 18px;
+    }
+    &__official {
+      margin-top: 10px;
+    }
+    &__contacts {
+      margin-top: 19px;
+    }
+  }
+  .button {
+    &_main {
+      width: 238px;
+      font-size: 14px;
+      margin-top: 48px;
+    }
+    &_submit {
+      width: 100%;
+    }
+  }
+  .carousel {
+    &__inner {
+      max-width: 100%;
+    }
+  }
+  .catalog {
+    &__tab {
+      font-size: 10px;
+    }
+  }
+  .feed {
+    &__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    img {
+      margin-bottom: 20px;
+    }
+    &__text {
+      margin: 0 20px;
+    }
+  }
+  .footer {
+    &__info {
+      padding: 0 27px;
+      width: 245px;
+      height: 170px;
+    }
+    &__addr {
+      margin-top: 22px;
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+    &__phone {
+      margin-bottom: 18px;
+    }
+    &__social {
+      &-item {
+        width: 37px;
+        height: 33px;
+      }
+      img {
+        height: 19px;
+      }
+    }
+  }
+  .modal {
+    &__close {
+      top: -35px;
+      right: 40px;
+    }
+  }
+}
