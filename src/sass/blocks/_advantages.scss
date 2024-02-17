@@ -32,4 +32,24 @@
       color: #ff0000;
     }
   }
+  &__icon {
+    &_animated {
+      animation: heartbeat 1.5s ease infinite;
+      &:hover {
+        animation-play-state: paused;
+      }
+    }
+    &_shoe {
+      animation: runAnimation 4s cubic-bezier(0.33, -0.16, 0.44, 1.13) infinite;
+      &:hover {
+        animation-play-state: paused;
+      }
+    }
+    &_cup {
+      animation: shakeAnimation 0.5s ease infinite;
+      &:hover {
+        animation-play-state: paused;
+      }
+    }
+  }
 }

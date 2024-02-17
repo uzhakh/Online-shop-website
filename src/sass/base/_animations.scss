@@ -1,0 +1,43 @@
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes runAnimation {
+  0%,
+  100% {
+    transform: translateX(
+      -20px
+    ); /* Начальная и конечная позиции иконки слева за пределами контейнера */
+  }
+  50% {
+    transform: translateX(
+      calc(10% + 20px)
+    ); /* Позиция иконки справа за пределами контейнера */
+  }
+}
+
+@keyframes shakeAnimation {
+  0% {
+    transform: rotate(-5deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  50% {
+    transform: rotate(-5deg);
+  }
+  75% {
+    transform: rotate(5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}

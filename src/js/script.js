@@ -120,13 +120,22 @@ $(document).ready(function () {
 
   //Smooth scroll and pageup
 
-  $(window).scroll(function () {
-    if ($(this).scrollTop() > 1000) {
-      $(".pageup").fadeIn();
+  // $(window).scroll(function () {
+  //   if ($(this).scrollTop() > 1000) {
+  //     $(".pageup").fadeIn();
+  //   } else {
+  //     $(".pageup").fadeOut();
+  //   }
+  // });
+  window.addEventListener("scroll", function() {
+    var pageupElement = document.querySelector(".pageup");
+    if (window.scrollY > 1000) {
+        pageupElement.style.display = "block"; // Показываем элемент
     } else {
-      $(".pageup").fadeOut();
+        pageupElement.style.display = "none"; // Скрываем элемент
     }
-  });
+});
+
   $("a[href^='#']").on("click", function (event) {
     // Make sure this.hash has a value before overriding default behavior
     if (this.hash !== "_href") {
@@ -142,7 +151,7 @@ $(document).ready(function () {
         {
           scrollTop: $(hash).offset().top,
         },
-        800,
+        20,
         function () {
           // Add hash (#) to URL when done scrolling (default click behavior)
           window.location.hash = hash;
