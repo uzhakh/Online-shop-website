@@ -128,9 +128,9 @@ $(document).ready(function () {
   //   }
   // });
   window.addEventListener("scroll", function() {
-    var pageupElement = document.querySelector(".pageup");
+   let pageupElement = document.querySelector(".pageup");
     if (window.scrollY > 1000) {
-        pageupElement.style.display = "block"; // Показываем элемент
+        pageupElement.style.display = "inline"; // Показываем элемент
     } else {
         pageupElement.style.display = "none"; // Скрываем элемент
     }
@@ -165,4 +165,5 @@ $(document).ready(function () {
   //   $("html,body").animate({ scrollTop: $(_href).offset().top + "px" });
   //   return false;
   // });
+  new WOW().init();
 });
