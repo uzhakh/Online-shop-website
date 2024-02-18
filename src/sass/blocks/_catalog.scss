@@ -141,6 +141,9 @@
       &_active {
         transform: translateX(-100%);
         margin-left: 0px;
+        ul {
+          padding-left: 0rem;
+        }
       }
       li {
         position: relative;
@@ -156,7 +159,7 @@
           height: 5px;
           background-color: $main-color;
           left: -14px;
-          top: 7px;
+          top: 8px;
         }
       }
     }
